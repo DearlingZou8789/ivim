@@ -35,9 +35,9 @@
 "------------------------------------------------
 
 " ivim user setting
-let g:ivim_user='Xiao-Ou Zhang' " User name
-let g:ivim_email='kepbod@gmail.com' " User email
-let g:ivim_github='https://github.com/kepbod' " User github
+let g:ivim_user='DearlingZou8789' " User name
+let g:ivim_email='zmj27404@sina.cn' " User email
+let g:ivim_github='https://github.com/DearlingZou8789' " User github
 " ivim UI setting
 let g:ivim_default_scheme=1 " Enable color settings adapted for hybrid
 let g:ivim_fancy_font=1 " Enable using fancy font
@@ -179,6 +179,7 @@ if count(g:ivim_bundle_groups, 'enhance') " Vim enhancement
     NeoBundle 'wikitopian/hardmode' " Hard mode
     NeoBundle 'wellle/targets.vim' " Text objects
     NeoBundle 'roman/golden-ratio' " Resize windows
+    NeoBundle 'davidhalter/jedi-vim' " davidhalter
 endif
 
 if count(g:ivim_bundle_groups, 'move') " Moving
@@ -718,7 +719,7 @@ endif
 if count(g:ivim_bundle_groups, 'move')
 
     " -> Tag bar
-    nnoremap <Leader>t :TagbarToggle<CR>
+    nnoremap <F8> :TagbarToggle<CR>
     let g:tagbar_autofocus=1
     let g:tagbar_expand=1
     let g:tagbar_foldlevel=2
